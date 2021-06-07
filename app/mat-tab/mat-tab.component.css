@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    justify-content: space-between;
+}
+.btnDiv {
+    display: flex;
+    flex-direction: column;
+}
+.btnDiv button {
+    margin: 5px;
+    width: 50px;
+
+}

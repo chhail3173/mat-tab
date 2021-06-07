@@ -1,0 +1,21 @@
+<!-- <button class="btn btn-primary" (click) = 'selectName()'>Dynamic component</button> -->
+
+<mat-tab-group (selectedTabChange)="getCmp($event)">
+    <mat-tab label="process1">
+        <!-- <div class="btnDiv" *ngFor = "let cmp of value.components let i = index">
+        <button>{{i}}</button>
+    </div>  -->
+</mat-tab>
+    <mat-tab label="process2"></mat-tab>
+    <mat-tab label="process3"></mat-tab>
+    <mat-tab label="process4"></mat-tab>
+    <mat-tab label="process5"></mat-tab>
+</mat-tab-group>
+
+<div>
+    <template #loadComponent>
+    </template>
+</div>
+
+
+

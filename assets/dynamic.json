@@ -1,0 +1,45 @@
+[
+    {
+     "process" : "process1",
+     "components" : [
+            {"component":"component1"},
+            {"component": "component2"},
+            {"component": "component3"},
+            {"component": "component4"},
+            {"component": "component5"}
+            ]
+    
+    },
+    {
+     "process" : "process2",
+     "components" : [
+            {"component":"component1"},
+            {"component": "component2"},
+            {"component": "component3"},
+            {"component": "component4"}
+                    ]
+    },
+    {
+        "process" : "process3",
+        "components" : [
+               {"component":"component1"},
+               {"component": "component2"},
+               {"component": "component3"}
+              
+                       ]
+       },
+       {
+        "process" : "process4",
+        "components" : [
+               {"component":"component1"},
+               {"component": "component2"}
+                       ]
+       },
+       {
+        "process" : "process5",
+        "components" : [
+               {"component":"component1"}
+
+                       ]
+       }
+    ]
